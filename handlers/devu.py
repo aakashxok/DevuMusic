@@ -12,14 +12,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 
 @bot.on_message(filters.command("start"))
 def start_(bot, message):
-    START_TEXT = """Hey {}\n\nMyself DevuMusic!\nA simple , lagfree and flexible music robot!\nIf you facing any issue related to this music bot then please join @SilentVerse\nFor more help you can explorer help menu by tapping on /help !"""
+    START_TEXT = """Hey {}\n\nMyself ShineMusic!\nA simple , lagfree and flexible music robot!\nIf you facing any issue related to this music bot then please join @SilentVerse\nFor more help you can explorer help menu by tapping on /help !"""
 
     START_BUTTON = [
                 [
-                    InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ💥", url="http://t.me/SilentMusic01bot?startgroup=true"),
+                    InlineKeyboardButton(text="💥ᴀᴅᴅ ᴄʀᴏᴡ ᴀᴘɴᴇ ɢʀᴏᴜᴘs ᴘʀ", url="http://t.me/shinevcbot?startgroup=true"),
                 ],
                 [
-                    InlineKeyboardButton(text="Updates", url="https://t.me/SILENT_BOTS"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/shinevcupdates"),
                     InlineKeyboardButton(text="Source✨", callback_data="repo_k"),
                 ],                
                 [                    
@@ -35,7 +35,7 @@ def start_(bot, message):
 
 @bot.on_message(filters.command("help"))
 def help_(bot, message):
-    HELP_TXT = """Hoi {}\nHere is the help menu choose your desireoption nd explorer it!!\nFor any kind of help or query Just join @SilentVerseand ask your query!!"""
+    HELP_TXT = """Hoi {}\nHere is the help menu choose your desireoption nd explorer it!!\nFor any kind of help or query Just join @ShineVcbot_Support ask your query!!"""
     
     HELP_BUTTON = [
         [
@@ -74,10 +74,10 @@ def callback_query(Client, callback: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(HELP_BUTTON)
         )
     elif callback.data == "repo_k":
-        REPO_MSG = f"""Hey, Here is the source code of DevuMusic🧚‍♀️\nSo deploy your own and enjoy and don't forget to fork nd to give star 😕!!"""
+        REPO_MSG = f"""Hey, Here is the source code of Shine music\nSo deploy your own!!"""
         REPO_BUTTONS = [
             [
-                InlineKeyboardButton(text="Source", url="https://github.com/ItsmeHyper13/DevuMusic"),
+                InlineKeyboardButton(text="Source", url="https://xnxx.com"),
                 InlineKeyboardButton(text="Back", callback_data="HOME"),
             ],
         ]
@@ -87,13 +87,13 @@ def callback_query(Client, callback: CallbackQuery):
         )
     elif callback.data == "HOME":
  
-        START_TEXT = f"""Hey, Myself DevuMusic!\nA simple , lagfree and flexible music robot!\nIf you facing any issue related to this music bot then please join @SilentVerse\nFor more help you can explorer help menu by tapping on /help !"""
+        START_TEXT = f"""Hey, Myself ShineMusic!\nA simple , lagfree and flexible music robot!\nIf you facing any issue related to this music bot then please join @SilentVerse\nFor more help you can explorer help menu by tapping on /help !"""
         START_BUTTON = [
                     [
-                        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ💥", url="http://t.me/SilentMusic01bot?startgroup=true"),
+                        InlineKeyboardButton(text="ᴀᴅᴅ ᴄʀᴏᴡ ᴀᴘɴᴇ ɢʀᴏᴜᴘs ᴘʀ", url="http://t.me/Shinevcbot?startgroup=true"),
                     ],
                     [
-                        InlineKeyboardButton(text="Updates", url="https://t.me/SILENT_BOTS"),
+                        InlineKeyboardButton(text="Updates", url="https://t.me/Shinevcupdates"),
                         InlineKeyboardButton(text="Source✨", callback_data="repo_k"),
                     ],                
                     [                    
