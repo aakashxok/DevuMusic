@@ -24,7 +24,7 @@ END = "https://te.legra.ph/file/e4ceba57c28876220b355.jpg"
 
 BUTTON = [
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/SilentVerse"),
+        InlineKeyboardButton(text="Support", url="https://t.me/ShineVcbot_support"),
         InlineKeyboardButton(text="🗑️Close", callback_data="close_"),
     ],
 ]
